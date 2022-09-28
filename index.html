@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div id="first-section">
+        <h1 id="main-title">Metric/Imperial Unit Conversion</h1>
+        <input type="text" id="input-value">
+        <p id="error-msg"></p>
+        <button id="convert-btn">Convert</button>
+    </div>
+
+    <div id="second-section">
+
+        <div class="unit-box">
+            <h3 class="unit-title">Length (Meter/Feet)</h3>
+            <p id="length-part" class="unit-value"></p>
+        </div>
+        <div class="unit-box">
+            <h3 class="unit-title">Volume (Liters/Gallons)</h3>
+            <p id="volume-part" class="unit-value"></p>
+        </div>
+        <div class="unit-box">
+            <h3 class="unit-title">Mass (Kilograms/Pounds)</h3>
+            <p id="mass-part" class="unit-value"></p>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
